@@ -1,0 +1,259 @@
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav
+{
+    background-color: #000;
+    height: 50px;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+nav ul li
+{
+    margin: 10px 82px;
+    font-size: 20px;
+    align-items: center;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    z-index: 1;
+}
+
+#descrição {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/img-inicial.webp");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+#descrição h2 {
+  color: #ad00f2;
+}
+
+#descrição h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#descrição .texto-descrição {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#descrição p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+
+#linguagens h3 {
+  background-color: #95989a;
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.conteudo-lin {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteudo-linguagem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: #5d5d5d;
+}
+
+.conteudo-linguagem .linguagem-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#linguagem-1 {
+  background-image: url("../img/javascript.png");
+}
+
+#linguagem-2 {
+  background-image: url("../img/java.png");
+}
+
+#linguagem-3 {
+  background-image: url("../img/python.jpg");
+}
+
+
+#mercado-trabalho {
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/mercado-de-trabalho.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+}
+
+#conteudo-mercado {
+  max-width: 40%;
+  align-items: center;
+  margin-left: 100px  ;
+}
+
+#conteudo-mercado h3 {
+  color: #ad00f2;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#conteudo-mercado p {
+  line-height: 1.5em;
+}
+
+.titulo-area{
+  background-color: #95989a;
+  text-align: center;
+  padding: 2em;
+  font-weight: 500; 
+  margin-bottom: 3em;
+}
+
+#areas {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.texto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.texto img {
+  width: 50%;
+}
+
+.texto h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#texto-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.conteudo-areas {
+  width: 100%;
+  padding-left: 2em;
+}
+
+#texto-3 .conteudo-areas {
+  justify-self: flex-start;
+}
+
+.conteudo-areas {
+  list-style-position: inside;
+}
+
+.conteudo-areas {
+  margin-bottom: 0.4em;
+}
+
+
+#faculdade h3 {
+  background-color: #696969;
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.conteudo-facul {
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/faculdade.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+}
+
+.conteudo-faculdade {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: #5d5d5d;
+}
+
+.conteudo-faculdade .facul-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#facul-1 {
+  background-image: url("../img/facul-anhaguera.png");
+}
+
+#facul-2 {
+  background-image: url("../img/facul-cruzeiro-do-sul.png");
+}
+
+#facul-3 {
+  background-image: url("../img/facul-unopar.webp");
+}
+
+
+
+#rodape {
+  text-align: center;
+  background-color: #5d5d5d;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
